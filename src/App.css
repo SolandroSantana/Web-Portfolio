@@ -1,0 +1,157 @@
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Bold.ttf');
+	font-weight: 700;
+}
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Medium.ttf');
+	font-weight: 500;
+}
+@font-face {
+	font-family: Centra;
+	src: url('./assets/font/CentraNo2-Book.ttf');
+	font-weight: 400;
+}
+
+body {
+    margin: 0;
+    background: #00070d;
+    font-weight: 400;
+    font-family: 'Centra', sans-serif !important;
+    
+}
+
+.navbar {
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.header {
+    background-image: url('assets/img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.header button {
+    background: #4f0b13;
+    border: 0;
+}
+
+.header .content {
+    padding-top: 150px;
+}
+
+.header .content h1 {
+    padding-top: 100px;
+}
+
+.about {
+    height: 100vh;
+}
+
+.about .img-about img {
+    margin-top: 55px;
+    width: 70% !important;
+}
+
+.about .about-card:hover {
+    color: white !important;
+    background-color: #dc3545 !important;
+}
+
+.skills {
+    height: 100vh;
+}
+
+.skills li{
+    color: #dc3545;
+}
+
+.skills li span{
+    color: white;
+}
+
+.skills .skill-card:hover{
+    background-color: #dc3545;
+}
+
+.skill-card:hover li{
+    color: white !important;
+    
+}
+
+.projects {
+    height: 100vh;
+}
+
+.projects button {
+    margin-top: 50px
+}
+
+.contact {
+    height: 100vh;
+}
+
+
+@media screen and (max-width: 991px) {
+    #responsive-navbar-nav {
+        background-color: black;
+        margin-top: 20px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 540px)  {
+    .header .content {
+        padding-top: 100px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .header .content .img-fluid{
+        width: 50%;
+        padding-top: 20px;
+    }
+
+    .header .content .col {
+        flex: 100%;
+    }
+
+    .about {
+        text-align: justify;
+        height: 180vh;
+    }
+
+    .skills {
+        height: 180vh;
+    }
+
+    .contact {
+       padding-top: 20px;
+    }
+}
+
+
+/*
+.header-img {
+    animation: logo-spin infinite 20s linear
+}
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+*/
+
