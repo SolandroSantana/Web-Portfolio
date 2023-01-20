@@ -34,13 +34,13 @@ const Projects = () => {
           </Col>
           {data.map(result => (
             <Col key={result.id} className='ms-3 ms-sm-0 col-lg-4 col-md-6 col-sm-12 mb-3'>
-            <Card>
-              <Card.Header className='text-center bg-light'>{result.name}</Card.Header>
+            <Card border='danger' bg='transparent' className='project-card'>
+              <Card.Header className='text-center bg-danger'>{result.name}</Card.Header>
               <Card.Body>
                 <Card.Text>
                  {result.description}
                 </Card.Text>
-                <Button variant="primary"><a className='text-white text-decoration-none' target='_blank' href={result.html_url}>Repositorio</a></Button>
+                <Button variant="dark" href={result.html_url}>Repositorio</Button>
               </Card.Body>
             </Card>
           </Col>

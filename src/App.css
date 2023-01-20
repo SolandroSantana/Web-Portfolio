@@ -88,6 +88,16 @@ body {
     height: 100vh;
 }
 
+.projects .card:hover{
+    background-color: #dc3545  !important;
+}
+
+.projects .card:hover a{
+    background-color: white;
+    border-color: #dc3545;
+    color: black !important;
+}
+
 .projects button {
     margin-top: 50px
 }
