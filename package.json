@@ -2,7 +2,7 @@
   "name": "frontend",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://solandrosantana.github.io/Web-Portfolio",
+  "homepage": "https://solandrosantana.github.io/Web-Portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
